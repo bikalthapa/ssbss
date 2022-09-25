@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gallery | SSBSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="slogo.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+
+<body>
+  <div class="navigation" id="navigation">
+
+    <div class="head_div">
+      <img src="slogo.png" class="slogo">
+      <div>
+      <h1 class="h1">Shree Shanti Bhagwati Secondary School</h1>
+      <h4 class="h1">Letang-4, Morang</h4>
+      </div>
+    </div>
+
+    <div class="menu_div">
+      <a href="index.html"><button>Home</button></a>
+      <a href="gallery.html"><button>Gallery</button></a>
+      <a href="contact.html"><button>Contact</button></a>
+      <a href="about.html"><button>About Us</button></a>
+    </div>
+  </div>
+
+    <div class="invisibleimg" id="imgtarget">
+      <div class="imgtarget_div">
+        <h1 id="img_details"></h1>
+      <span onclick="clos()">
+        <ion-icon name="close" id="close"></ion-icon>
+      </span>
+      </div>
+      <img id="imagearea" src="english medium.jpg">
+    </div>
+  <div class="body" id="dim">
+
+
+  <div class="gallery_content">
+    <div class="row">
+      <img src="school.jpg" onclick="image('school.jpg', 'English Medium')">
+      <img src="english medium.jpg" onclick="image('english medium.jpg', 'English Medium With Play Ground')">
+      <img src="4.jpg" onclick="image('4.jpg', 'Nepali Medium')">
+    </div>
+    <div class="row">
+      <img src="nepali_students.jpg" onclick="image('nepali_students.jpg', 'Nepali Medium Students')">
+      <img src="students_with_teachers.jpg" onclick="image('students_with_teachers.jpg', 'Science Students With Teachers')">
+      <img src="st.jpg" onclick="image('st.jpg', 'Engineering Students')">
+    </div>
+    <div class="row">
+      <img src="CRM_practical.jpg" onclick="image('CRM_practical.jpg', 'Computer Repair and Maintenance practical')">
+      <img src="class_9_c_lab.jpg" onclick="image('class_9_c_lab.jpg', 'Students busy at computer class')">
+      <img src="entrance_examination_ce.jpg" onclick="image('entrance_examination_ce.jpg', 'Engineering Entrance')">
+    </div>
+    <div class="row">
+      <img src="smart_board.jpg" onclick="image('smart_board.jpg', 'Smart Board')">
+      <img src="physics_lab.jpg" onclick="image('physics_lab.jpg', 'Students at physics Lab')">
+      <img src="clab.jpg" onclick="image('clab.jpg', 'Computer Lab')">
+    </div>
+  </div>
+  <div class="footer">
+    <div class="logof">
+      <img src="slogo.png" height="100px" width="100px" style="border-radius:100%;">
+      <h2>Shree Shanti Bhagwati Sec. School</h2>
+      <h4>Letang-4, Morang</h4>
+    </div>
+    <div class="copyright">
+      <h2>Copyright 2022 | SSBSS</h2>
+    </div>
+    <div class="contact">
+      <h1>Contact</h1>
+      <p>
+        Phone no : 021-56003<br>
+        Email : ssbssofficial@gmail.com<br>
+      </p>
+      <h4>Follow Us On</h4>
+      <a href="https://www.facebook.com/profile.php?id=100054585123546" target="blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="" target="blank"><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="" target="blank"><ion-icon name="logo-googleplus"></ion-icon></a>
+      <a href="" target="blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+      <a href="" target="blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
